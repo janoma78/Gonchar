@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    background: #F1F1F1;
+}
+
+.spisok {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #c2c2c2;
+
+}
+
+h3 {
+    display: block;
+}
+.radius {
+    height:70px;
+    width:70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+li{
+
+    background: #EBEBEC;
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 30%;
+
+}
+
+a{
+    display: inline-block;
+    margin:10px ;
+}
+
+*{transition: all .1s ease-in;}

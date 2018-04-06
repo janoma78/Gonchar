@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle&subset=latin-ext');
+
+div {
+    margin-bottom: 20px;
+}
+
+div:nth-child(1) {
+     font-family: Verdana, Arial, sans-serif;
+     color: #ff16bd;
+
+}
+
+div:nth-child(2) {
+    font-family:   Georgia, "Times New Roman",  serif;
+    color:#996699 ;
+}
+
+div:nth-child(3) {
+    color: #33CCCC;
+    font-size: 20px;
+    text-decoration: underline overline line-through;
+}
+
+div:nth-child(4):first-letter{
+    line-height: 50px;
+    font-size: 30px;
+    color: red;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #EB7569;
+    vertical-align: top;
+    /*font-family: 'Chicle', cursive;*/
+    font: italic 800 20px/30px "Chicle",serif;
+
+}
+
+a {
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ff16bd;
+}
+
+a img {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+i {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}

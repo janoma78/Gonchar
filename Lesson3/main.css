@@ -1,0 +1,78 @@
+div {
+    margin-bottom: 10px;
+    font-size: 20px !important;
+    text-indent: 30px;
+    background: rgba(31, 30, 30, 0.26);
+
+}
+ul{
+    padding-left: 17px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+p{
+    font-size: 24px;
+
+}
+span{
+    color: #00ff00;
+    color: rgb(0,255,0);
+    color: rgba(0,255,0,0.5);
+    background:#cccccc;
+    opacity: .8;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.styled-div{
+    color: red;
+
+}
+div {
+    color: #1a3dc1;
+}
+
+
+#second-div{
+    color: springgreen;
+}
+
+body b {
+    font-weight: lighter;
+}
+
+b {
+    font-weight: normal;
+}
+
+body p b {
+    font-weight: normal;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+p b.bold-text#bold-text-id{
+
+}
+
+.fs22{
+    font-size: 22px;
+}
+
+.aling-center{
+    text-align: center;
+    display: block;
+}
+
+.selector {
+    margin: 0 auto;
+}
+

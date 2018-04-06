@@ -1,0 +1,58 @@
+form, audio {
+    margin-left: 220px;
+    margin-top: 40px;
+}
+h3 {
+    padding: 40px;
+    text-indent: 0px;
+    display: block;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: -80px;
+
+    background: #CECECE;
+
+}
+
+
+h2 {
+    text-indent: 220px;
+}
+
+span{
+    display: block;
+    margin-left: 220px;
+    margin-right: 220px;
+    background: #CECECE;
+    padding: 40px;
+}
+
+.img{
+     display: block;
+     margin: 0 auto;
+     margin-top: -60px;
+
+ }
+
+.img1{
+    display: block;
+    margin: 0 auto;
+    margin-top: -60px;
+    height:150px;
+    width:150px;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    border-radius: 70%;
+    border: 2px;
+}
+ol{ margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 40px;
+    padding: 40px;
+
+}
+
+p{
+    font-size: 18px;
+}
+

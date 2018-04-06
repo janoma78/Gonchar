@@ -1,0 +1,144 @@
+body {
+    background: #33CCCC;
+    min-height: 100vh;
+}
+
+
+ul{
+    border: 2px solid white;
+    background: #1a3dc1;
+    width: 60%; /*чтоб был резиновым*/
+    box-sizing: border-box;
+    font-size: 0;
+    margin: 100px auto;
+    padding: 0;
+
+}
+
+li{
+    width: 25%;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 100px;
+    font-size: 14px;
+    color: white;
+    vertical-align: top;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+ul :nth-child(1) {
+    background: #1a3dc1;
+}
+ul :nth-child(2) {
+    background: #1a3d;
+}
+ul :nth-child(3) {
+    background: #ff16bd;
+}
+ul :nth-child(4) {
+    background: #2B81AC;
+}
+ul :nth-child(5) {
+    background: #7A7593;
+}
+ul :nth-child(6) {
+    background: #33CCCC;
+}
+ul :nth-child(7) {
+    background: #339966;
+}
+ul :nth-child(8) {
+    background: #996699;
+}
+ul :nth-child(9) {
+    background: #FFCC66;
+}
+ul :nth-child(10) {
+    background: #EB7569;
+}
+ul :nth-child(11) {
+    background:#C24747 ;
+}
+
+ul :hover li {
+    opacity: 0.6;
+}
+
+ul li :hover {
+    opacity: 1;
+
+}
+
+/*-----------------*/
+/*СТРЕЛОЧКА #1*/
+
+div {
+    width: 0;
+    border-bottom: #FFCC66;
+    border: 50px solid red;
+    border-left-color: green;
+    border-right-color: black;
+
+
+}
+
+span {/*угол стрелочки*/
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: blue;
+    margin-bottom: 40px;
+
+
+}
+
+a{ /*тело стрелочки*/
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background: blue;
+    border-radius: 12px;
+    border: 3px solid black;
+
+
+}
+
+p{
+    font-size: 0;
+}
+
+/*-------------------------------*/
+
+
+/*------------------------------*/
+/*СТРЕЛОЧКА #2*/
+
+section{/*стрелка*/
+    height: 100px;
+    width: 100px;
+    border: 10px solid transparent;
+    border-left-color: black;
+    border-bottom-color: black;
+    margin-bottom: 40px;
+
+
+}
+
+.apl-l {/*поворот стрелки*/
+    transform: rotate(45deg);
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.apl-r {/*поворот стрелки*/
+    transform: rotate(235deg);
+}
+
+/*-----------------------------*/

@@ -1,0 +1,244 @@
+h1{
+    font-family:'Lucida Sans Unicode';
+}
+
+span {
+     display: inline-block;
+}
+ul{
+    vertical-align: middle;
+    list-style: none;
+    /*font-size: 0px;*/
+    font-family: 'Lucida GrandeLucida Grande';
+    display: inline-block;
+}
+.wi {
+    font-size: 30px;
+
+}
+
+.obvodka{
+    font-size: 0px;
+
+}
+
+.prozoro{
+    /*color: rgba(255,255,255,0.5)*/
+    opacity: .7;
+}
+
+.Lisbon {
+    background: #3399CC;
+    color: #fff;
+    border: 3px solid white;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.Belgrad {
+    background: #996699;
+    color: #fff;
+    border: 3px solid white;
+    border-left: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+.Paris {
+    background: #33CCCC;
+    color: #fff;
+    border:3px solid white;
+    border-left: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+
+.Moscov {
+    background: #C24747;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.Tel{
+    background: #E2674A;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    border-left: 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.Cair{
+    background: #FFCC66;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    border-left: 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.New{
+    background: #99CC99;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    border-left: 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.Delhi {
+    background: #669999;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.San {
+    background: #CC6699;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    border-left: 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.Tokyo {
+    background: #339966;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    border-left: 0px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+
+}
+
+.Sidney {
+    background: #666699;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid white;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-top: 0px;
+ }
+
+body{
+    min-height: 94vh;
+
+    border: 20px solid #2B81AC ;
+    margin: 0 auto;
+    background:#3399CC ;
+
+
+
+}
+
+div {
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+footer{
+    font-size: 18px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+div :hover{
+    background-color: white ;
+}
+.fon{
+    background:#3399CC ;
+}
+
+ul > span{
+    margin-top: 10px;
+}
+
+*{transition: all .1s ease-in;}

@@ -1,0 +1,33 @@
+.first-class{
+    background: lime;
+    border: 20px solid #ff16bd;
+    padding: 50px 20px 10px; /*внутренний отступ*/
+    height: 400px; /*высота*/
+    width: 400px;  /*ширина*/
+    margin: 100px; /*обводка вокруг блока внутренняя, 540рх в данном случае*/
+    color: #000000;
+    box-sizing: border-box; /*определяет бокс, в данном случае преобразовано в 400рх*/
+    /*min-height: 100vh;  выравнивание (растягивание) блока по высоте*/
+    text-align: center;
+    overflow: hidden;
+    /*display: inline;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-left: 30px dashed white;
+    border-top: 20px dotted #000000;
+    border-radius: 50%;
+}
+
+
+body{
+    background: #4A4F56;
+    border: 5px solid #1a3dc1;
+
+}
+
+body :before {
+    content:"" ;
+    display: inline-block;
+}
+
+

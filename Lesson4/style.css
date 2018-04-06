@@ -1,0 +1,53 @@
+body > div{
+    font-style: italic;
+    margin-bottom: 20px;
+ }
+a, span {
+    font-style: normal;
+}
+
+.div-class {
+    color: red;
+}
+#div-id{
+    color: blue;
+}
+[href="#"]{
+    color: #000;
+}
+[href$=".com"] {
+    color: lime;
+}
+[href^="https"]{
+    color: #ff16bd;
+}
+[href*="oo"] {
+    text-decoration: none;
+}
+
+[title~="com"] {
+    margin-left: 50px;
+}
+.list-item{
+    color: darkgreen;
+}
+
+.list-item~li{
+    color: #a96e1b;
+}
+
+.list-item+li{
+     color: darkgray;
+ }
+
+form input{
+    display: block;
+}
+form input [type=text] {
+    outline: none;
+}
+
+form input [type=text] :focus {
+    border-color: #ff16bd;
+}
+

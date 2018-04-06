@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <ol>
+        <li>List item</li>
+        <li class="list-item">List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+   </ol>
+   <ul>
+       <li><a title="titlle google.com" href="http://google.com">list item 4</a></li>
+       <li><a title="titlle yahho com"href="http://gmail.com">list item 5</a></li>
+       <li><a title="titlle betroot" href="http://nmbbnm.com">list item 4</a></li>
+       <li><a href="http://vbhhj.ru">list item 4</a></li>
+       <li><a href="http://fhfhjff.com">list item 4</a></li>
+       <li><a href="#">list item 4</a></li>
+   </ul>
+
+    <div class="div-class" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> SPAN </span>Accusamus esse et illo perspiciatis quibusdam
+           soluta voluptatum. Beatae corporis delectus doloribus eius expedita maiores nihil, officia quidem repellendus
+           vero. Harum, repellat.
+    </div>
+    <div>Dolor dolorum et eum illo quae quaerat recusandae voluptatem! Aspernatur eius eum expedita explicabo, itaque
+           laboriosam magnam <a href="#">LINK</a>totam unde? Doloribus dolorum est eum fugit iusto possimus quibusdam quidem repellat
+           suscipit.
+    </div>
+
+       <form action="">
+           <input type=" TEXT">
+           <a href="#">fgfgggffg</a>
+       </form>
+    <div id="div-id" class="div-class">Ad, aliquam aliquid animi asperiores at, aut corporis culpa exercitationem fugit inventore magni maiores
+           molestias nisi, odio placeat quaerat quos voluptatem voluptatibus! Accusamus autem neque, odio provident
+           quidem quos reiciendis.
+          <div>
+               <span> SPAN span</span>
+          </div>
+    </div>
+    <div>Adipisci animi blanditiis dignissimos, dolore iusto magnam minus molestiae omnis quas quo ratione
+           repellendus reprehenderit soluta. Aliquid beatae corporis distinctio exercitationem expedita incidunt ipsa,
+           laboriosam odit quam quod veritatis voluptas!
+    </div>
+
+
+</body>
+
+</head>
+</html>
