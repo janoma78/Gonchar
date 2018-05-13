@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Lato, Arial, sans-serif; }
+
+.section-inner {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center; }
+
+#s-working {
+  background: #aeb9c9 url("img/hero-bg.jpg") no-repeat right center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 200px;
+  box-sizing: border-box; }
+
+#s-working .logo {
+  display: inline-block;
+  margin-top: 100px; }
+
+#s-working h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #ffffff; }
+
+#s-working p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px; }
+
+#scroll {
+  display: inline-block;
+  width: 23px;
+  height: 37px;
+  background: url("img/svg/scroll.svg") no-repeat right center;
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  /*margin-left: -11px;*/
+  transform: translateX(-50%); }
+
+.border {
+  border: 2px solid #3c3c3c;
+  border-top: none;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 120px;
+  margin-top: 120px;
+  margin-bottom: 150px; }
+
+.border p {
+  line-height: 26px;
+  font-size: 15px; }
+
+.border.black p {
+  line-height: 24px; }
+
+.border.white {
+  border-color: white; }
+
+.border h2 {
+  top: 0;
+  left: 0;
+  margin: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  position: absolute; }
+
+.border h2:before, .border h2:after {
+  content: '';
+  display: block;
+  width: 244px;
+  height: 2px;
+  position: absolute;
+  background: #3c3c3c;
+  top: 15px; }
+
+.border.white h2:before, .border.white h2:after {
+  background: #fff; }
+
+.border h2:before {
+  left: 0; }
+
+.border h2:after {
+  right: 0; }
+
+.black {
+  color: #3c3c3c; }
+
+.white {
+  color: #fff; }
+
+#about {
+  padding-top: 1px;
+  padding-bottom: 1px; }
+
+#services {
+  background: #aeb9c9 url("img/services.jpg") no-repeat right center;
+  padding-top: 1px;
+  padding-bottom: 1px; }
+
+.test {
+  width: 200px;
+  height: 75px;
+  background: #7A7593;
+  position: relative; }
+  .test:before {
+    content: '';
+    position: absolute;
+    right: -34px;
+    bottom: 0;
+    border-left: 14px;
+    color: lime;
+    z-index: 2; }
+
+/*# sourceMappingURL=style.css.map */

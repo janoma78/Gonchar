@@ -1,0 +1,93 @@
+/*div {*/
+    /*display: inline-block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: #ff16bd;*/
+    /*margin: 20px;*/
+    /*color: black;*/
+    /*z-index: 1;*/
+    /*text-align: center;*/
+    /*padding: 10px 10px 10px 10px;*/
+
+/*}*/
+
+/*div:nth-child(3) {*/
+    /*position: relative;*/
+    /*left: 30px;*/
+    /*top: 40px;*/
+    /*background: white ;*/
+   /*}*/
+
+/*div:nth-child(7) {*/
+    /*position: absolute;*/
+    /*left: 30px;*/
+    /*top: 40px;*/
+
+/*}*/
+
+/*section {*/
+    /*border: 1px solid black;*/
+    /*background: #996699;*/
+    /*margin: 40px;*/
+    /*position: relative;*/
+/*}*/
+
+/*div.seven {*/
+    /*right:  363px;*/
+    /*bottom:26px;*/
+    /*left: auto;*/
+    /*top: auto;*/
+    /*background: #FFCC66;*/
+/*}*/
+
+/*div:nth-child(5){*/
+    /*bottom: 405px;*/
+    /*right: 380px;*/
+    /*position: fixed;*/
+    /*background: #1a3dc1;*/
+/*}*/
+
+/*p, span{*/
+    /*position: relative;*/
+    /*font-size: 30px;*/
+/*}*/
+
+/*a{*/
+    /*position: absolute;*/
+    /*background: lime;*/
+/*}*/
+
+/*span, a {*/
+    /*display: inline-block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: red;*/
+
+/*}*/
+
+ul{
+    border: 1px solid black;
+    width: 80%;
+
+}
+
+li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: lime;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.rect {
+    width: 50%;
+    background: #339966;
+    margin: 0 auto;
+}
+
+.rect:before{
+    padding-top: 0px;
+}

@@ -1,0 +1,30 @@
+@import "variables";
+
+@mixin title-styles ($ls, $fw: bold, $br: 1) {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  font-weight: $fw;
+  letter-spacing: $ls;
+  border: 2px dashed blue;
+  @if ($br == 1) {
+    @include br(7px);
+  }
+}
+@mixin bz-bb {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-background-sizing: border-box;
+}
+
+@mixin br ($size) {
+  -webkit-border-radius: $size;
+  border-radius: $size;
+  -moz-border-radius: $size;
+}
+
+@mixin button-bg ($color) {
+background: $color;
+  &:hover {
+    background: darken($color, 30%);
+  }
+}

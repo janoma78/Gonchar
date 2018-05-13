@@ -1,0 +1,59 @@
+section{
+    background: #7A7593;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin: 20px;
+    float: left;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div:nth-child(4),
+div:nth-child(8) {
+    background: #ff16bd;
+    float: right;
+
+}
+
+div:nth-child(9),
+div:nth-child(10) {
+    background: #ff16bd;
+    float: right;
+
+}
+
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+/*section:before, section:after{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*clear: both;*/
+/*}*/
+
+section{
+    overflow: hidden;
+    width: 50%;
+}
+
+p:first-letter{
+    font-size: 100px;
+    color: #ff16bd;
+    margin:40px;
+    
+    float: left;
+}
+
+p{
+    font-size: 30px;
+}

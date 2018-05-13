@@ -1,0 +1,59 @@
+.board {
+    position: relative;
+    width: 80vw;
+    margin: 10vw auto;
+    background: #a96e1b;
+    border: 15px solid black;
+}
+
+.board:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.ceells{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.row {
+    height: 12.5%;
+    /*font-size: 0;*/
+}
+
+.cell {
+    height: 100%;
+    width: 12.5%;
+    background: black;
+    display: inline-block;
+
+}
+
+
+.row:nth-child(even) .cell{
+    float: right;
+    margin: 0 auto;
+    margin-right: 109px;
+
+}
+
+.row:nth-child(odd) .cell {
+    float: right;
+    margin: 0 auto;
+    margin-left: 109px;
+}
+
+.row :nth-child(1),
+.row :nth-child(2){
+    background: #000000 url('White.png') no-repeat center;
+    background-size: 70%;
+}
+
+.row :nth-child(4){
+    background: #000000 url('Black.png') no-repeat center;
+    background-size: 70%;
+}

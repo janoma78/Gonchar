@@ -1,0 +1,44 @@
+#svg {
+    background: url("Burger_King_Logo.svg") no-repeat center;
+    width: 500px;
+    height: 500px;
+    background-size: 100% 50%;
+}
+
+img {
+    width: 300px;
+    height: 600px;
+}
+
+#svg2200 {
+    width: 30%;
+}
+
+#svg2200 #path17 {
+    fill: blue;
+}
+
+#svg2200 #path43 {
+     fill: green;
+ }
+
+#svg2200 #path11 {
+    stroke: lightblue;
+    stroke-width: 14px;
+}
+
+#svg2200 #path13 {
+    fill: yellow;
+}
+
+@media screen and (max-width: 600px) {
+
+    #svg2200 #path15{
+        display: none;
+    }
+
+}
+
+svg .cls-2 {
+    fill: #3c3c3c;
+}

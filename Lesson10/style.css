@@ -1,0 +1,50 @@
+.board {
+    position: relative;
+    width: 80vw;
+    margin: 10vw auto;
+    border: 15px solid black;
+}
+
+.board:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.ceells{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.row {
+    height: 12.5%;
+    /*font-size: 0;*/
+}
+
+.cell {
+    height: 100%;
+    width: 12.5%;
+    background: black;
+    display: inline-block;
+
+}
+
+
+.row:nth-child(even) .cell{
+    float: right;
+    margin: 0 auto;
+    margin-right: 109px;
+
+
+
+
+}
+
+.row:nth-child(odd) .cell {
+    float: left;
+    margin: 0 auto;
+    margin-left: 109px;
+}
