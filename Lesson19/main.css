@@ -1,0 +1,107 @@
+body {
+  min-height: 100vh; }
+
+body {
+  margin: 0; }
+
+.section-inner {
+  width: 1140px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "Arial Black", sans-serif; }
+  .s1 h1 {
+    font-size: 20px; }
+  .s2 h1 {
+    font-size: 30px; }
+  .s3 h1 {
+    font-size: 50px; }
+
+section.s1 {
+  background: lime; }
+
+.section-inner {
+  border: 10px solid #1a3dc1; }
+.section__title {
+  font-size: 48px; }
+
+.s2 h3 {
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 2px dashed blue;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -moz-border-radius: 7px; }
+
+.s3 {
+  background: #7A7593; }
+  .s3 h5 {
+    font-family: "Times New Roman", serif;
+    font-size: medium;
+    font-weight: medium;
+    letter-spacing: 2px;
+    border: 2px dashed blue;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-border-radius: 7px; }
+  .s3 h2 {
+    font-family: "Times New Roman", serif;
+    font-size: medium;
+    font-weight: light;
+    letter-spacing: 0.5px;
+    border: 2px dashed blue; }
+  .s3 a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold; }
+    .s3 a:hover {
+      color: #33CCCC; }
+  .s3 [class^=col-] {
+    color: #7A7593; }
+
+.row .col {
+  font-size: 18px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-background-sizing: border-box;
+  padding: 15px;
+  float: left; }
+  .row .col .col-5 {
+    color: #7A7593;
+    font-size: 18px; }
+  .row .col a {
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #7A7593;
+    text-align: center;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .row .col:nth-child(1) a {
+    background: coral; }
+    .row .col:nth-child(1) a:hover {
+      background: #b63100; }
+  .row .col:nth-child(2) a {
+    background: red; }
+    .row .col:nth-child(2) a:hover {
+      background: #660000; }
+  .row .col:nth-child(3) a {
+    background: blue; }
+    .row .col:nth-child(3) a:hover {
+      background: #000066; }
+  .row .col:nth-child(4) a {
+    background: yellow; }
+    .row .col:nth-child(4) a:hover {
+      background: #666600; }
+  .row .col:nth-child(5) a {
+    background: green; }
+    .row .col:nth-child(5) a:hover {
+      background: black; }
+
+/*# sourceMappingURL=main.css.map */
