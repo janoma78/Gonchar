@@ -9,13 +9,14 @@ body {
 
 .section-inner, #place {
   min-width: 740px;
+  height: 100%;
   margin: 0 auto;
   text-align: center; }
   .section-inner .blok, .section-inner .blok1, .section-inner .blok3, #place .blok, #place .blok1, #place .blok3 {
     width: 504px;
     height: 383px;
     text-align: center;
-    background: rgba(35, 35, 35, 0.6);
+    background: rgba(35, 35, 35, 0.9);
     margin-top: 216px;
     flex-direction: column; }
     .section-inner .blok p, .section-inner .blok1 p, .section-inner .blok3 p, #place .blok p, #place .blok1 p, #place .blok3 p {
@@ -35,10 +36,6 @@ body {
       font-weight: 400;
       letter-spacing: 2.3px; }
     .section-inner .blok a, .section-inner .blok1 a, .section-inner .blok3 a, #place .blok a, #place .blok1 a, #place .blok3 a {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
       background: url("img/button.svg") center center no-repeat;
       height: 60px;
       width: 220px;
@@ -55,22 +52,28 @@ body {
       font-weight: bold; }
   .section-inner .blok3, #place .blok3 {
     background: rgba(35, 35, 35, 0);
-    margin-top: 19px; }
+    margin-top: 19px;
+    margin-left: 105px; }
 
 .row-blok3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-right: -79px;
   padding-top: 86px; }
   .row-blok3 a {
-    margin-top: 43px; }
+    margin-top: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
   .row-blok3 .image {
     width: 445px;
-    height: 475px; }
+    height: 475px;
+    margin-right: 105px; }
     .row-blok3 .image .image1 {
-      float: left; }
+      float: left;
+      padding-bottom: 5px; }
     .row-blok3 .image .image2 {
       float: right; }
 
@@ -98,6 +101,11 @@ body {
       margin-top: -4px;
       margin-bottom: 47px;
       letter-spacing: -0.3px; }
+    .row .blok a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
   .row .blok1 {
     font-family: "Josefin Sans", sans-serif;
     text-align: left;
@@ -117,6 +125,11 @@ body {
       margin-top: -4px;
       margin-bottom: 47px;
       letter-spacing: -0.3px; }
+    .row .blok1 a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
 
 #banner {
   background: url("img/banner.jpg") no-repeat right center;
@@ -150,7 +163,15 @@ body {
     font-size: 14px; }
   #banner .search {
     font-size: 0;
-    position: relative; }
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
     #banner .search .input {
       border: none;
       width: 500px;
@@ -162,7 +183,7 @@ body {
       color: rgba(153, 153, 153, 0.3); }
     #banner .search .input:focus {
       border: 2px solid #5474fd; }
-    #banner .search .submit {
+    #banner .search button {
       width: 150px;
       height: 60px;
       border: 2px solid white;
@@ -172,7 +193,12 @@ body {
       font-size: 14px;
       text-align: center;
       border-left: 0; }
-    #banner .search .submit:hover {
+    #banner .search button:after {
+      content: "  \f002";
+      font-family: FontAwesome;
+      font-size: 25px;
+      color: #F9F0DA; }
+    #banner .search button:hover {
       background: -webkit-linear-gradient(-130deg, #496bfe, #496bfe 60%, #5474fd 40%);
       background: -o-linear-gradient(-160deg, #496bfe, #496bfe 60%, #5474fd 40%);
       background: linear-gradient(-160deg, #C496bfe, #496bfe 60%, #5474fd 40%);
@@ -194,7 +220,8 @@ body {
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
-      margin-left: 424px;
+      margin-left: 463px;
+      margin-right: 105px;
       padding-top: 10px; }
       #menu .nav lu li {
         font-size: 14px;
@@ -245,7 +272,7 @@ body {
       width: 625px;
       height: 245px;
       margin-bottom: 0px;
-      background: rgba(0, 0, 0, 0.5);
+      background: #333333;
       text-align: left;
       padding: 20px; }
     #spain .blok2 p, #spain2 .blok2 p, #spain3 .blok2 p {
