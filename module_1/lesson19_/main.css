@@ -1,0 +1,110 @@
+@import url(style.css);
+body {
+  margin: 0; }
+
+* {
+  color: #999; }
+
+.section-inner {
+  width: 960px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "Arial Black", sans-serif; }
+  .s1 h1 {
+    font-size: 30px; }
+  .s2 h1 {
+    font-size: 20px; }
+  .s3 h1 {
+    font-size: 50px; }
+
+section.s1 {
+  background: red; }
+  section.s1 h2 {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px dashed blue; }
+
+.section-inner {
+  border: 10px solid black; }
+.section__title {
+  font-size: 32px; }
+
+.s2 h3 {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border: 3px dashed blue;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px; }
+
+.s3 {
+  background: green; }
+  .s3 a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold; }
+    .s3 a:hover {
+      color: blue; }
+  .s3 [class^=col-] {
+    font-style: italic; }
+  .s3 h5 {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 2px;
+    border: 3px dashed blue; }
+
+.row:before, .row:after {
+  content: '';
+  display: block;
+  clear: both; }
+.row .col {
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+  float: left; }
+  .row .col-5 {
+    width: 20%; }
+  .row .col-8 {
+    width: 12.5%; }
+  .row .col a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .row .col:nth-child(1) a {
+    background: red; }
+    .row .col:nth-child(1) a:hover {
+      background: #660000; }
+  .row .col:nth-child(2) a {
+    background: orange; }
+    .row .col:nth-child(2) a:hover {
+      background: #664200; }
+  .row .col:nth-child(3) a {
+    background: yellow; }
+    .row .col:nth-child(3) a:hover {
+      background: #666600; }
+  .row .col:nth-child(4) a {
+    background: lightgreen; }
+    .row .col:nth-child(4) a:hover {
+      background: #1ec71e; }
+  .row .col:nth-child(5) a {
+    background: blue; }
+    .row .col:nth-child(5) a:hover {
+      background: #000066; }
+
+/*# sourceMappingURL=main.css.map */

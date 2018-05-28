@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&amp;subset=latin-ext,vietnamese");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@font-face {
+  font-family: "Aleo";
+  src: url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff2") format("woff2"), url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.ttf") format("tpuetype"), url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff") format("woff"); }
+body {
+  color: white;
+  margin: 0px; }
+
+.section-inner, #place {
+  min-width: 740px;
+  margin: 0 auto;
+  text-align: center; }
+  .section-inner .blok, .section-inner .blok1, .section-inner .blok3, #place .blok, #place .blok1, #place .blok3 {
+    width: 504px;
+    height: 383px;
+    text-align: center;
+    background: rgba(35, 35, 35, 0.6);
+    margin-top: 216px;
+    flex-direction: column; }
+    .section-inner .blok p, .section-inner .blok1 p, .section-inner .blok3 p, #place .blok p, #place .blok1 p, #place .blok3 p {
+      margin-top: 33px;
+      text-align: left;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 23px; }
+    .section-inner .blok h2, .section-inner .blok1 h2, .section-inner .blok3 h2, #place .blok h2, #place .blok1 h2, #place .blok3 h2 {
+      margin-top: 0px;
+      margin-bottom: 64px;
+      padding-top: 50px;
+      font-family: "Aleo", serif;
+      font-size: 36px;
+      text-align: left;
+      font-weight: 400;
+      letter-spacing: 2.3px; }
+    .section-inner .blok a, .section-inner .blok1 a, .section-inner .blok3 a, #place .blok a, #place .blok1 a, #place .blok3 a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background: url("img/button.svg") center center no-repeat;
+      height: 60px;
+      width: 220px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      font-family: "Aleo", serif;
+      font-size: 16px;
+      letter-spacing: 1.3px; }
+    .section-inner .blok a:hover, .section-inner .blok1 a:hover, .section-inner .blok3 a:hover, #place .blok a:hover, #place .blok1 a:hover, #place .blok3 a:hover {
+      background: -webkit-linear-gradient(-130deg, #496bfe, #496bfe 60%, #5474fd 40%);
+      background: -o-linear-gradient(-160deg, #496bfe, #496bfe 60%, #5474fd 40%);
+      background: linear-gradient(-160deg, #C496bfe, #496bfe 60%, #5474fd 40%);
+      font-weight: bold; }
+  .section-inner .blok3, #place .blok3 {
+    background: rgba(35, 35, 35, 0);
+    margin-top: 19px; }
+
+.row-blok3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: -79px;
+  padding-top: 86px; }
+  .row-blok3 a {
+    margin-top: 43px; }
+  .row-blok3 .image {
+    width: 445px;
+    height: 475px; }
+    .row-blok3 .image .image1 {
+      float: left; }
+    .row-blok3 .image .image2 {
+      float: right; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .row .blok {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    padding-left: 29px;
+    margin-left: -10px; }
+    .row .blok h5 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: 49px; }
+    .row .blok h4 {
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .row .blok p {
+      font-size: 16px;
+      font-weight: 100;
+      margin-top: -4px;
+      margin-bottom: 47px;
+      letter-spacing: -0.3px; }
+  .row .blok1 {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    padding-left: 29px;
+    margin-left: 100px; }
+    .row .blok1 h5 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: 49px; }
+    .row .blok1 h4 {
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .row .blok1 p {
+      font-size: 16px;
+      font-weight: 100;
+      margin-top: -4px;
+      margin-bottom: 47px;
+      letter-spacing: -0.3px; }
+
+#banner {
+  background: url("img/banner.jpg") no-repeat right center;
+  width: 100%;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 200px;
+  box-sizing: border-box; }
+  #banner h1 {
+    margin-top: 0px;
+    padding-top: 307px;
+    margin-bottom: 5px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.3px; }
+  #banner h3 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 28px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 6px; }
+  #banner .scroll {
+    padding-top: 118px;
+    letter-spacing: 3px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px; }
+  #banner .search {
+    font-size: 0;
+    position: relative; }
+    #banner .search .input {
+      border: none;
+      width: 500px;
+      height: 60px;
+      text-align: center;
+      font-family: "Aleo", serif;
+      font-size: 14px;
+      letter-spacing: 4px;
+      color: rgba(153, 153, 153, 0.3); }
+    #banner .search .input:focus {
+      border: 2px solid #5474fd; }
+    #banner .search .submit {
+      width: 150px;
+      height: 60px;
+      border: 2px solid white;
+      background-color: #5474fd;
+      color: #ffffff;
+      font-family: "Aleo", serif;
+      font-size: 14px;
+      text-align: center;
+      border-left: 0; }
+    #banner .search .submit:hover {
+      background: -webkit-linear-gradient(-130deg, #496bfe, #496bfe 60%, #5474fd 40%);
+      background: -o-linear-gradient(-160deg, #496bfe, #496bfe 60%, #5474fd 40%);
+      background: linear-gradient(-160deg, #C496bfe, #496bfe 60%, #5474fd 40%);
+      font-weight: bold; }
+
+#menu {
+  background: #5474fd;
+  font: "Josefin Sans", sans-serif; }
+  #menu h2 {
+    padding-top: 26px;
+    letter-spacing: 1.3px;
+    margin-top: 0px;
+    margin-left: 105px; }
+  #menu .nav {
+    display: flex;
+    text-transform: uppercase; }
+    #menu .nav lu {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 424px;
+      padding-top: 10px; }
+      #menu .nav lu li {
+        font-size: 14px;
+        letter-spacing: 1.3px;
+        list-style-type: none;
+        padding-right: 20px; }
+        #menu .nav lu li a {
+          text-decoration: none;
+          color: white; }
+      #menu .nav lu a:hover {
+        text-decoration: underline; }
+
+#spain, #spain2, #spain3 {
+  margin-top: 0px;
+  min-height: 700px;
+  position: relative;
+  background-size: cover;
+  box-sizing: border-box; }
+  #spain .blok2, #spain2 .blok2, #spain3 .blok2 {
+    text-align: center; }
+    #spain .blok2 h2, #spain2 .blok2 h2, #spain3 .blok2 h2 {
+      padding-top: 130px;
+      font-family: "Aleo", serif;
+      font-size: 36px;
+      letter-spacing: 1.3px;
+      margin-top: 0px; }
+    #spain .blok2 img, #spain2 .blok2 img, #spain3 .blok2 img {
+      margin-left: -19px; }
+    #spain .blok2 span, #spain2 .blok2 span, #spain3 .blok2 span {
+      margin-top: 85px;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #spain .blok2 span p:first-letter, #spain2 .blok2 span p:first-letter, #spain3 .blok2 span p:first-letter {
+        color: #5474fd;
+        font-size: 48px; }
+      #spain .blok2 span div, #spain2 .blok2 span div, #spain3 .blok2 span div {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 34px;
+        padding-left: 38px; }
+    #spain .blok2 i, #spain2 .blok2 i, #spain3 .blok2 i {
+      margin-top: 0px;
+      width: 625px;
+      height: 245px;
+      margin-bottom: 0px;
+      background: rgba(0, 0, 0, 0.5);
+      text-align: left;
+      padding: 20px; }
+    #spain .blok2 p, #spain2 .blok2 p, #spain3 .blok2 p {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 100;
+      padding-top: 17px;
+      padding-left: 38px;
+      line-height: 25px; }
+
+#us {
+  min-height: 684px;
+  position: relative;
+  background-size: cover;
+  box-sizing: border-box; }
+
+#place {
+  height: 330px;
+  background: #333333 no-repeat right center; }
+  #place .text {
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white; }
+    #place .text span:hover {
+      color: #5474fd; }
+  #place img {
+    padding-top: 46px;
+    margin: 0 auto; }
+
+#us {
+  background: url("img/image3.jpg") no-repeat center center; }
+
+#spain {
+  background: url("img/image4.jpg") no-repeat center center; }
+
+#spain2 {
+  background: url("img/image5.jpg") no-repeat center center; }
+
+#spain3 {
+  background: url("img/image7.jpg") no-repeat center center; }
+
+footer {
+  min-height: 313px;
+  background: #232323;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center; }
+  footer h2 {
+    margin-top: 0px;
+    padding-top: 167px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.2px; }
+  footer h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+    margin-top: -10px; }
+  footer i {
+    padding: 10px; }
+  footer i:hover {
+    color: #5474fd; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+body > div {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+a, span {
+    font-style: normal;
+}
+.div-class {
+    color: red;
+}
+#div-id {
+    color: blue;
+}
+[href='#'] {
+    color: orangered;
+}
+[href^='http://'] {
+    color: black;
+}
+[href$='.com'] {
+    color: crimson;
+}
+[href*='oo'] {
+    text-decoration: none;
+}
+[title~='com'] {
+    margin-left: 50px;
+}
+.list-item {
+    color: green;
+}
+.list-item ~ li {
+    color: green;
+}
+.list-item + .class-name {
+    color: blue;
+}
+
+#child-elements * {
+    display: block;
+    color: #000000;
+    font-style: normal;
+}
+#child-elements :first-child {
+    color: deeppink;
+}
+#child-elements :last-child {
+    color: deeppink;
+}
+#child-elements :nth-child(5) {
+    color: deeppink;
+}
+#child-elements :nth-last-child(2) {
+    color: deeppink;
+}
+#child-elements div:first-of-type {
+    color: green;
+}
+#child-elements :nth-child(odd) { /*каждый нечётный*/
+    margin-left: 30px;
+}
+#child-elements :nth-child(3n - 2) {
+    background: orange;
+}
+form {
+    margin-bottom: 20px;
+}
+form input {
+    display: block;
+}
+form input[type=text] {
+    outline: none;
+}
+form input[type=text]:focus {
+    border-color: darkblue;
+}
+form a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+form a:active {
+    color: darkgreen;
+}
+li:hover label, li:hover span {
+
+}
+

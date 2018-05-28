@@ -1,0 +1,135 @@
+/*div {*/
+    /*display: inline-block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: #333333;*/
+    /*margin: 20px;*/
+    /*color: #ffffff;*/
+/*}*/
+/*div:nth-child(3) {*/
+    /*position: relative;*/
+    /*left: 30px;*/
+    /*top: 70px;*/
+    /*background: green;*/
+/*}*/
+/*div:nth-child(7) {*/
+    /*position: absolute;*/
+    /*left: 30px;*/
+    /*top: 40px;*/
+/*}*/
+/*section {*/
+    /*border: 1px solid black;*/
+    /*background: #cccccc;*/
+    /*margin: 40px;*/
+    /*position: relative;*/
+/*}*/
+/*div.div-7 {*/
+    /*right: 180px;*/
+    /*bottom: 40px;*/
+    /*left: auto;*/
+    /*top: auto;*/
+    /*background: yellow;*/
+    /*color: #333333;*/
+/*}*/
+/*div:nth-child(5) {*/
+    /*top: 130px;*/
+    /*right: 260px;*/
+    /*position: fixed;*/
+    /*background: red;*/
+/*}*/
+
+
+p, span {
+    position: relative;
+    font-size: 30px;
+}
+span, a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #333333;
+    z-index: 5;
+}
+a {
+    position: absolute;
+    background:red;
+}
+span {
+    top: -50px;
+    left: 500px;
+}
+ul {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    padding: 0;
+}
+li {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.rect {
+    width: 80%;
+    background: #999999;
+    position: relative;
+    margin: 0 auto;
+}
+.rect:before {
+    content: '';
+    display: block;
+    padding-top:100%;
+}
+.rect div {
+    position: absolute;
+    top: 0;
+}
+
+.row {
+    font-size: 0;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    background: #333333;
+    display: inline-block;
+}
+.row:nth-child(even) .cell {
+    margin-right: 50px;
+}
+.row:nth-child(odd) .cell {
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

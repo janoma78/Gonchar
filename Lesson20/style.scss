@@ -1,0 +1,48 @@
+body {
+  background: #FFCC66;
+  margin: 0;
+}
+
+.flex-conteiner {
+  flex-wrap: wrap;
+  display: flex;
+  & > * {
+    flex-basis: 150px;
+  }
+  section {
+    flex-grow: 5;
+  }
+  .img-wrapper {
+   flex-grow: 2;
+    img {
+      width:100%;
+    }
+  }
+}
+
+.flex-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0  -10px;
+ & > div {
+   flex-basis: 50%;
+   box-sizing: border-box;
+   padding: 10px;
+   &:first-child {
+     flex-basis: 66.67%;
+
+   }
+   &:nth-child(2) {
+     flex-basis: 33.33%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+   }
+ }
+  img {
+    width: 100%;
+    display: block;
+
+  }
+}

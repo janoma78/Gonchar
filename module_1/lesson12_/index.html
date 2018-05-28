@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form action="/" method="post">
+    <h2>Форма</h2>
+    <label for="first-name">Ваше имя:</label>
+    <input type="text" id="first-name" name="first-name" value="Иван" required="required" readonly="readonly">
+
+    <input type="text" id="test2" name="test2" placeholder="Test field 2" required="required">
+    <input type="number" name="num" id="num" placeholder="Number">
+    <input type="email" name="email">
+
+    <label>
+        Ваш номер телефона:
+        <input type="tel" name="phone" minlength="10"/>
+    </label>
+
+    <label for="text-field">Ваш отзыв:</label>
+    <textarea name="text-field" id="text-field" cols="30" rows="10" maxlength="500"></textarea>
+
+    <input type="password" name="phone">
+    <input type="file" name="file">
+
+    <section class="styled-input">
+        <input type="checkbox" name="chb" id="chb1" checked="checked">
+        <label for="chb1">Чекбокс 1</label>
+        <input type="checkbox" name="chb" id="chb2" checked="checked" disabled="disabled">
+        <label for="chb2">Чекбокс 2</label>
+        <input type="checkbox" name="chb" id="chb3">
+        <label for="chb3">Чекбокс 3</label>
+        <input type="checkbox" name="chb" id="chb4" disabled="disabled">
+        <label for="chb4">Чекбокс 4</label>
+    </section>
+
+    <div class="styled-input">
+        <input type="radio" name="rb" id="rb1" disabled="disabled">
+        <label for="rb1">Радиобаттон 1</label>
+        <input checked="checked" type="radio" name="rb" id="rb2">
+        <label for="rb2">Радиобаттон 2</label>
+        <input type="radio" name="rb" id="rb3">
+        <label for="rb3">Радиобаттон 3</label>
+    </div>
+
+    <select name="select" id="select">
+        <option value="1">Param 1</option>
+        <option value="2">Param 2</option>
+        <option value="3">Param 3</option>
+        <option value="4" disabled="disabled">Param 4</option>
+        <option value="5">Param 5</option>
+        <option value="6">Param 6</option>
+        <option value="7">Param 7</option>
+        <option value="8">Param 8</option>
+        <option value="9">Param 9</option>
+        <option value="10" selected="selected">Param 10</option>
+    </select>
+
+    <br>
+    <input type="reset" value="Сбросить">
+    <input type="submit" value="Отправить данные">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</form>
+</body>
+</html>

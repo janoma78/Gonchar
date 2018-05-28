@@ -1,0 +1,10 @@
+.first-class {
+    background: #333333;
+    border: 20px solid darkblue;
+    padding: 50px;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+    color: #ffffff;
+    box-sizing: border-box;
+}

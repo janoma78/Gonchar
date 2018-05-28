@@ -1,0 +1,75 @@
+div {
+    margin-bottom: 10px;
+    font-size: 20px !important;
+    text-indent: 30px;
+    /*background: #cccccc;*/
+    /*opacity: .8;*/
+    background: rgba(16, 0, 136, 0.27);
+    background: #000000;
+}
+ul {
+    padding-left: 17px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    letter-spacing: .5px;
+}
+p {
+    font-size: 20px;
+}
+span {
+    color: #00ff00;
+    color: rgb(0,255,0);
+    color: rgba(0,255,0,.5);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+#fourth-div { /*100*/
+    color: aqua;
+}
+.styled-div { /*10*/
+    color: #8e1cff;
+}
+div { /*1*/
+    color: yellow;
+}
+
+
+
+.bold-text { /*10*/
+     font-weight: bold;
+}
+body b { /*2*/
+    font-weight: bold;
+}
+b { /*1*/
+    font-weight: normal;
+}
+p b { /*2*/
+    font-weight: normal;
+}
+p b.bold-text#bold-text-id { /*112*/
+
+}
+.italic {
+    font-style: italic;
+}
+.fs22 {
+    font-size: 22px;
+    color: #333333;
+}
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+.align-center {
+    text-align: center;
+    display: block;
+}
+.selector {
+    margin: 0 auto;
+}

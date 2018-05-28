@@ -1,0 +1,31 @@
+#svg {
+    background: url("img/svg/Burger_King_Logo.svg") no-repeat;
+    width: 600px;
+    height: 500px;
+    background-size: 100% 50%;
+}
+#svg2200 {
+    width: 30%;
+}
+#svg2200 #path17 {
+    fill: blue;
+}
+#svg2200 #path43 {
+    fill: green; /*заливка (фон)*/
+}
+#svg2200 #path11 {
+    stroke: lightblue; /*обводка вместо border*/
+    stroke-width: 3px;
+}
+@media screen and (max-width: 600px) {
+    #svg2200 #path13 {
+        display: none;
+    }
+}
+svg .cls-2 {
+    fill: blue;
+}
+#used-svg-02 #svg-02 .cls-2 {
+    fill: red;
+    stroke: red;
+}

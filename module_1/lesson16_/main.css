@@ -1,0 +1,85 @@
+.star {
+    display: none;
+}
+.star + label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background: #000;
+    cursor: pointer;
+    float: right;
+}
+.star + label:hover,
+.star + label:hover ~ label,
+.star:checked + label,
+.star:checked + label ~ label {
+    background: orange;
+}
+.stars:before, .stars:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*Сетки*/
+
+/* инлайн-блочные сетки */
+/*.row {*/
+    /*font-size: 0;*/
+/*}*/
+/*[class^=col-] {*/
+    /*display: inline-block;*/
+    /*font-size: 16px;*/
+    /*vertical-align: top;*/
+    /*padding: 15px;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid black;*/
+/*}*/
+/* конец инлайн-блочных сеток */
+/* сетки с флоатами */
+/*.row:before, .row:after {*/
+    /*content: '';*/
+    /*display: block;*/
+    /*clear: both;*/
+/*}*/
+/*[class^=col-] {*/
+    /*float: left;*/
+    /*padding: 15px;*/
+    /*box-sizing: border-box;*/
+    /*!*border: 1px solid black;*!*/
+/*}*/
+/* конец сеток с флоатами */
+/* сетка с флексом */
+.row {
+    display: flex;
+}
+[class^=col-] {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+/* конец сетки с флексом */
+.col-2 {
+    width: 50%;
+}
+.col-3 {
+    width: calc(100% / 3);
+}
+.col-5 {
+    width: 20%;
+}
+.col-7 {
+    width: calc(100% / 7);
+}
+.col-7-2 {
+    width: calc(100% / 7 * 2);
+}
+[class^=col-] .row {
+    margin: -15px;
+}
+img {
+    width: 100%;
+}
+

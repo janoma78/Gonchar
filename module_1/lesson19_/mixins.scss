@@ -1,0 +1,31 @@
+@import "variables";
+
+@mixin bz-bb {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin br($size) { // генерирует бордер радиус с вендорными префиксами
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  border-radius: $size;
+}
+
+@mixin title-styles($ls, $fw: bold, $br: 1) {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: $fw;
+  letter-spacing: $ls;
+  border: 3px dashed blue;
+  @if ($br == 1) {
+    @include br(7px);
+  }
+}
+
+@mixin button-bg($color){
+  background: $color;
+  &:hover {
+    background: darken($color, 30%);
+  }
+}

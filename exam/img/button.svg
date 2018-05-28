@@ -1,0 +1,16 @@
+<svg id="button.svg" xmlns="http://www.w3.org/2000/svg" width="225" height="60" viewBox="0 0 225 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5474fd;
+      }
+
+      .cls-2 {
+        fill: #496bfe;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="225" height="60"/>
+  <path class="cls-2" d="M345,1328h52l57,60H345v-60Z" transform="translate(-345 -1328)"/>
+</svg>

@@ -1,0 +1,120 @@
+.item {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: #333333;
+}
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.item-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,255,0,.8);
+    /*display: none;*/
+    opacity: 0;
+    transition: all 1s linear;
+}
+.item:hover .item-content {
+    /*display: block;*/
+    opacity: 1;
+}
+.item-text-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ffffff;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+}
+form input {
+    width: 500px;
+    height: 60px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;
+}
+form .name {
+    position: relative;
+    display: block;
+}
+form .name:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #3c4955 url("user.svg") no-repeat center 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+form .name:after {
+    content: '';
+    position: absolute;
+    border: 8px solid transparent;
+    border-left-color: #3c4955;
+    left: 60px;
+    top: 22px;
+}
+
+table tr:nth-child(2) td:nth-child(2) {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table {
+    display: table;
+}
+.table > div {
+    display: table-row;
+}
+.table span {
+    display: table-cell;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.s-2 {
+    background: #777;
+    /*padding-top: 1px;*/
+}
+/*.s-2:before {*/
+    /*content: '';*/
+    /*height: 0;*/
+    /*width: 100%;*/
+    /*display: inline-block;*/
+/*}*/
+.s-2:after {
+    content: '';
+    height: 0;
+    width: 100%;
+    display: inline-block;
+}

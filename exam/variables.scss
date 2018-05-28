@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&amp;subset=latin-ext,vietnamese');
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: "Aleo";
+  src: url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff2") format("woff2"),
+  url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.ttf") format("tpuetype"),
+  url("/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff") format("woff");
+}
+
+$font:'Josefin Sans', sans-serif;
+$font2:'Aleo', serif;
+

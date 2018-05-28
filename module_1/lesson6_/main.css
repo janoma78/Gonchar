@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,500i,700i,800i,900|Lobster|Press+Start+2P&subset=cyrillic-ext');
+div {
+    margin-bottom: 20px;
+}
+div:nth-child(1) {
+    font-family: Verdana, Arial, sans-serif;
+}
+div:nth-child(2) {
+    font-family: 'Press Start 2P', Georgia, 'Times New Roman', serif;
+}
+div:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline overline line-through;
+    color: darkblue;
+    text-shadow: -5px -1px 0px rgba(255, 0, 1, 1);
+}
+div:nth-child(4) {
+    letter-spacing: 2.3px;
+    word-spacing: 19.6px;
+    line-height: 24px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    text-align: right;
+    font-family: Lobster, sans-serif;
+}
+div:nth-child(5) {
+    /*font-family:'Alegreya', serif;*/
+    /*font-weight: 800;*/
+    /*font-style: italic;*/
+    font: italic 800 18px/28px 'Alegreya', serif;
+}
+div:nth-child(5):first-letter {
+    font-size: 50px;
+    color: darkred;
+    line-height: 40px;
+}
+
+span {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+}
+
+a {
+    margin-top: 100px;
+    display: block;
+    border: 1px solid #999;
+}
+a * {
+    vertical-align: middle;
+}
+a img {
+    width: 80px;
+    vertical-align: middle;
+}

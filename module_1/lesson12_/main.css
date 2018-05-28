@@ -1,0 +1,60 @@
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=submit],
+input[type=reset],
+input[type=checkbox],
+input[type=radio] {
+    display: inline-block;
+}
+textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*--*//*-Стилизация чекбоксов и радиобаттонов-*//*--*/
+
+.styled-input input[type=checkbox],
+.styled-input input[type=radio] {
+    display: none;
+}
+.styled-input label:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("checkbox-radio-sprite-image.png") no-repeat;
+    margin-right: 5px;
+}
+.styled-input input[type=checkbox] + label:before {
+    background-position: -37px -1px;
+}
+.styled-input input[type=checkbox]:checked + label:before {
+    background-position: -55px -1px;
+}
+.styled-input input[type=checkbox]:disabled + label:before {
+    background-position: -1px -1px;
+}
+.styled-input input[type=checkbox]:checked:disabled + label:before {
+    background-position: -20px -1px;
+}
+.styled-input input[type=radio] + label:before {
+    background-position: -75px -1px;
+}
+.styled-input input[type=radio]:checked + label:before {
+    background-position: -93px -1px;
+}
+.styled-input input[type=radio]:disabled + label:before {
+    background-position: -110px -1px;
+}
+.styled-input input[type=radio]:checked:disabled + label:before {
+    background-position: -128px -1px;
+}
