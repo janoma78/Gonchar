@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700,800,900&subset=devanagari,latin-ext');
+@import "slick", "slick-theme";
+
+.section-inner {
+  div {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    .big {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .text {
+      padding-top: 40px;
+      font-weight: 700;
+      font-size: 86px;
+      line-height: 90px;
+
+    }
+  }
+
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: "slick";
+  font-size: 96px;
+  line-height: 1;
+  //color: black;
+  color: #7A7593;
+  opacity: 0.75;
+  left: 20px;
+  z-index: 100;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev {
+  left: -112px;
+  z-index: 100;
+}
+
+img {
+  margin-right: 44px;
+}
+
+.my-slider {
+  margin-right: 136px;
+  margin-left: 136px;
+  margin-top: 106px;
+  margin-bottom: 106px;
+}

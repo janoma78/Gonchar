@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+
+}
+
+@import "slick", "slick-theme";
+
+section {
+  background: lime;
+  .section-inner {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+//.slick-arrow {
+//  z-index: 1;
+//  &:before {
+//    color: #333333;
+//  }
+//  &.slick-prev {
+//    left: 0;
+//  }
+//  &.slick-next {
+//    right: 0;
+//  }
+//}

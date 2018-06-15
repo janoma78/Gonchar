@@ -1,0 +1,14 @@
+body {
+  margin: 0; }
+
+#parallax {
+  position: relative;
+  overflow: hidden;
+  height: calc(56.25vw - 17px); }
+  #parallax img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+/*# sourceMappingURL=main.css.map */

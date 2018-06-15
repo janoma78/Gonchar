@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Flat ;
+  src: url("/font/JF-Flat-regular.woff") format("woff"),
+  url("/font/JF-Flat-regular.ttf") format("tpuetype");
+}
+
+body {
+  width: 100%;
+  height: 768px;
+  background-image: url("img/br_0.jpg");
+
+}
+
+#accordion {
+
+  div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 380px;
+    height: 100px;
+    font-family: Flat, Serif;
+    font-size: 24px;
+  }
+  .block, .block1, .block2, .block3, .block4 {
+   h2 {
+     height: 100px;
+     font-family: Flat, Serif;
+     font-size: 24px;
+   }
+  p {
+      height: 166px;
+      font-family: Flat, Serif;
+      font-size: 18px;
+    }
+  }
+
+  .block {
+
+    background: #620808;
+    color: #ffe9c1;
+   }
+  .block1 {
+    background: #a53f3f;
+    color: #f4ce74;
+  }
+  .block2 {
+    background: #f4ce74;
+    color: #620808;
+  }
+  .block3 {
+    background: #ffe9c1;
+    color: #a53f3f;
+  }
+  .block4 {
+    background: #d5441c;
+    color: #ffe9c1;
+  }
+}
+
+

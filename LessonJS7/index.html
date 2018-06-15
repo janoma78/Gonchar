@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span class="click-me">Click me</span>
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at deserunt esse harum illo quae quidem rem repudiandae tempore ut!</div>
+<span class="google">Google</span>
+<br>
+<span class="click-me-2">Click me</span>
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+    <a class="link" href="http://google.com">Ссылка</a> at deserunt esse harum illo quae quidem rem repudiandae tempore ut!</div>
+
+<section class="section">
+    <div class="div"></div>
+</section>
+<style>
+    section {
+        width: 500px;
+        height: 500px;
+        background: #333;
+        display: flex;
+    }
+    section div {
+        width: 200px;
+        height: 200px;
+        background: red;
+        margin: auto;
+    }
+
+    form {
+        margin: 100px;
+    }
+
+    form > * {
+        display: block;
+        margin: 15px;
+    }
+</style>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci animi culpa dolore, eaque earum error eum explicabo ipsum iusto, minima modi perferendis ratione, repellat saepe veritatis voluptatum! Ab aliquam aspernatur commodi deserunt distinctio, expedita id itaque maxime molestias neque non porro possimus qui quis recusandae rem velit veniam vitae!</p>
+<div id="wheel-test" style="width: 200px; height: 200px; background: #1ec71e; margin: 0 auto;"></div>
+
+<div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid assumenda fuga illum ipsum iste iure maiores neque nisi non officia quaerat quia, reprehenderit sunt tenetur vel veniam vero voluptatem!</div>
+    <div>A dolores eligendi eos hic incidunt magnam nisi, nulla odio, officiis optio quidem quis rem voluptas. Beatae consequuntur corporis doloribus ducimus eum, explicabo ipsam labore nobis quam sit totam voluptatum?</div>
+    <div>Ab aspernatur at corporis cum dolore esse et eveniet, fugiat impedit ipsum laborum laudantium maiores maxime nisi obcaecati praesentium quis ratione recusandae velit voluptatibus! At earum eveniet fugit molestiae suscipit.</div>
+    <div>Corporis debitis dicta laudantium libero maiores minus, molestiae neque nostrum numquam officia recusandae sint temporibus velit. At dicta doloribus ducimus et labore laboriosam modi nostrum nulla, quo sequi temporibus tenetur!</div>
+    <div>Aperiam asperiores autem debitis doloremque dolorum ducimus eius est eum id illum, inventore ipsam ipsum maxime minus molestias nulla officia pariatur quam qui quidem quo saepe sed sunt suscipit tenetur?</div>
+</div>
+
+<form action="/">
+    <label for="name">Your name</label>
+    <input type="text" id="name" >
+    <label for="isDeveloper">You programmer?</label>
+    <input type="checkbox" id="isDeveloper" checked="checked">
+    <label>
+        Your know?
+        <select  id="technology">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JS</option>
+    </select>
+    </label>
+    <label >
+        Comments
+        <textarea  id="comment" cols="30" rows="10" style="display: block;"></textarea>
+    </label>
+
+    <input type="submit" value="Show">
+</form>
+<script src="jquery-3.2.1.min.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>
